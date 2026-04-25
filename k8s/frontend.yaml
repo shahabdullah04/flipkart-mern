@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: shahabdullah04/flipkart-frontend:latest
+        image: shahabdullah04/flipkart-frontend:c8e8dd9aed270d8d8b64a51a4abccbe9f7ef2765
         ports:
         - containerPort: 80
 ---

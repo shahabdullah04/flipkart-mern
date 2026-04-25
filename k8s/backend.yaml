@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: shahabdullah04/flipkart-backend:latest
+        image: shahabdullah04/flipkart-backend:c8e8dd9aed270d8d8b64a51a4abccbe9f7ef2765
         ports:
         - containerPort: 4000
         env:

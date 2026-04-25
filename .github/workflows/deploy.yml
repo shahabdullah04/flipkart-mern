@@ -3,7 +3,7 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main
+      - master
     paths-ignore:
       - 'k8s/**' # Don't trigger if only K8s files change to prevent infinite loops
 

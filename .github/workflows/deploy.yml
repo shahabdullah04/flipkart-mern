@@ -30,8 +30,7 @@ jobs:
 
       - name: Build and Push Frontend Image
         run: |
-          cd frontend
-          docker build -t shahabdullah04/flipkart-frontend:${{ github.sha }} .
+          docker build -t shahabdullah04/flipkart-frontend:${{ github.sha }} -f frontend/Dockerfile .
           docker push shahabdullah04/flipkart-frontend:${{ github.sha }}
 
       - name: Update Kubernetes Manifests

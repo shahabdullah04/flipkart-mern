@@ -3,3 +3,11 @@
 
 # local env files
 /backend/config/config.env
+
+# terraform
+/.terraform
+/*.tfstate
+/*.tfstate.*
+/terraform/.terraform
+/terraform/*.tfstate
+/terraform/*.tfstate.*
